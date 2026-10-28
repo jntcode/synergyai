@@ -55,7 +55,7 @@ The first interview request issues a signed, `httpOnly`, `SameSite=Lax` guest co
 ## Verification
 
 ```bash
-npm run typecheck   # tsc --noEmit
+npm run typecheck   # next typegen + tsc --noEmit
 npm run lint        # eslint .
 npm test            # vitest (unit + component tests)
 npm run build       # next build (Turbopack, cacheComponents)

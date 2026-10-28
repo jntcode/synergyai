@@ -2,13 +2,13 @@
 
 ## Layers
 
-| Layer | Tool              | Command             | Status                                                         |
-| ----- | ----------------- | ------------------- | -------------------------------------------------------------- |
-| Unit  | Vitest 5          | `npm test`          | 142 tests, passing                                             |
-| Type  | tsc               | `npm run typecheck` | clean                                                          |
-| Lint  | ESLint 9          | `npm run lint`      | 0 errors (2 informational React Compiler notes on RHF `watch`) |
-| Build | Next 16 Turbopack | `npm run build`     | passing                                                        |
-| E2E   | Playwright        | `npm run test:e2e`  | not configured; Playwright and E2E specs are not installed     |
+| Layer | Tool               | Command             | Status                                                         |
+| ----- | ------------------ | ------------------- | -------------------------------------------------------------- |
+| Unit  | Vitest 5           | `npm test`          | 142 tests, passing                                             |
+| Type  | Next typegen + tsc | `npm run typecheck` | clean                                                          |
+| Lint  | ESLint 9           | `npm run lint`      | 0 errors (2 informational React Compiler notes on RHF `watch`) |
+| Build | Next 16 Turbopack  | `npm run build`     | passing                                                        |
+| E2E   | Playwright         | `npm run test:e2e`  | not configured; Playwright and E2E specs are not installed     |
 
 ## Unit tests (`src/**/*.test.ts`)
 
