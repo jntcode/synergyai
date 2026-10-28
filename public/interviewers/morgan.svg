@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-label="Morgan, professional corporate interviewer — fictional AI interviewer illustration">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#eef1fb"/>
+      <stop offset="60%" stop-color="#dbe1f5"/>
+      <stop offset="100%" stop-color="#b9c4e8"/>
+    </radialGradient>
+    <linearGradient id="jacket" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2c3e75"/>
+      <stop offset="100%" stop-color="#22315c"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c98f63"/>
+      <stop offset="100%" stop-color="#b87c52"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b2320"/>
+      <stop offset="100%" stop-color="#1a1512"/>
+    </linearGradient>
+    <clipPath id="frame"><circle cx="240" cy="240" r="228"/></clipPath>
+  </defs>
+  <circle cx="240" cy="240" r="232" fill="url(#bg)"/>
+  <g clip-path="url(#frame)">
+    <ellipse cx="240" cy="470" rx="190" ry="120" fill="#0f172a" opacity="0.06"/>
+    <path d="M96 480c8-92 62-140 144-140s136 48 144 140H96z" fill="url(#jacket)"/>
+    <path d="M198 344c0 18 18 30 42 30s42-12 42-30v-36h-84v36z" fill="url(#skin)"/>
+    <path d="M214 350l26 20 26-20 14 10-40 40-40-40 14-10z" fill="#dbe7fb"/>
+    <path d="M232 370h16l-3 26-5 30h-4l-5-30-3-26h4z" fill="#3b5bb5"/>
+    <path d="M162 480c4-40 20-70 44-88l14 26c-18 14-30 36-34 62h-24z" fill="#1a2749" opacity="0.6"/>
+    <path d="M318 480c-4-40-20-70-44-88l-14 26c18 14 30 36 34 62h24z" fill="#1a2749" opacity="0.6"/>
+    <ellipse cx="163" cy="226" rx="13" ry="18" fill="url(#skin)"/>
+    <ellipse cx="317" cy="226" rx="13" ry="18" fill="url(#skin)"/>
+    <path d="M240 104c-50 0-82 36-82 94 0 64 36 120 82 120s82-56 82-120c0-58-32-94-82-94z" fill="url(#skin)"/>
+    <path d="M158 200c-4-62 32-106 82-106s86 44 82 106c-8-34-22-54-40-62-16 16-56 22-88 8-18 12-30 30-36 54z" fill="url(#hair)"/>
+    <path d="M186 138c22-14 52-18 78-10-26 0-54 6-78 10z" fill="#3d332e" opacity="0.8"/>
+    <path d="M204 214c8-5 18-5 26 0" stroke="#1a1512" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <path d="M250 214c8-5 18-5 26 0" stroke="#1a1512" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <ellipse cx="217" cy="228" rx="6.5" ry="7.5" fill="#241a12"/>
+    <ellipse cx="263" cy="228" rx="6.5" ry="7.5" fill="#241a12"/>
+    <circle cx="219" cy="225.5" r="2" fill="#ffffff"/>
+    <circle cx="265" cy="225.5" r="2" fill="#ffffff"/>
+    <path d="M239 234c-2 9-5 16-9 22 4 3 10 4 15 2" stroke="#9c6740" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <path d="M216 276c14 8 34 8 48-2" stroke="#8a5136" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <path d="M166 224c-3 5-3 12 0 17" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.2"/>
+  </g>
+  <circle cx="240" cy="240" r="228" fill="none" stroke="#ffffff" stroke-width="6" opacity="0.7"/>
+</svg>

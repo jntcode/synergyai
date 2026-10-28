@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-label="Cameron, senior hiring manager — fictional AI interviewer illustration">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#faf3ea"/>
+      <stop offset="60%" stop-color="#f0e2cf"/>
+      <stop offset="100%" stop-color="#dcc5a4"/>
+    </radialGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3f4a"/>
+      <stop offset="100%" stop-color="#2b2f38"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8d5a3b"/>
+      <stop offset="100%" stop-color="#7a4b30"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e2a28"/>
+      <stop offset="100%" stop-color="#1f1c1a"/>
+    </linearGradient>
+    <clipPath id="frame"><circle cx="240" cy="240" r="228"/></clipPath>
+  </defs>
+  <circle cx="240" cy="240" r="232" fill="url(#bg)"/>
+  <g clip-path="url(#frame)">
+    <ellipse cx="240" cy="470" rx="190" ry="120" fill="#0f172a" opacity="0.06"/>
+    <path d="M96 480c8-92 62-140 144-140s136 48 144 140H96z" fill="url(#suit)"/>
+    <path d="M198 344c0 18 18 30 42 30s42-12 42-30v-36h-84v36z" fill="url(#skin)"/>
+    <path d="M212 350l28 22 28-22 16 10-44 38-44-38 16-10z" fill="#f4f1ea"/>
+    <path d="M232 372h16l-3 24-5 32h-4l-5-32-3-24h4z" fill="#c98a2e"/>
+    <path d="M162 480c4-40 20-70 44-88l14 26c-18 14-30 36-34 62h-24z" fill="#22262e" opacity="0.65"/>
+    <path d="M318 480c-4-40-20-70-44-88l-14 26c18 14 30 36 34 62h24z" fill="#22262e" opacity="0.65"/>
+    <ellipse cx="163" cy="226" rx="13" ry="18" fill="url(#skin)"/>
+    <ellipse cx="317" cy="226" rx="13" ry="18" fill="url(#skin)"/>
+    <path d="M240 106c-50 0-82 38-82 96 0 62 36 118 82 118s82-56 82-118c0-58-32-96-82-96z" fill="url(#skin)"/>
+    <path d="M158 198c-4-58 32-100 82-100s86 42 82 100c-6-30-18-48-34-56-16 14-54 20-86 8-18 10-32 26-44 48z" fill="url(#hair)"/>
+    <path d="M176 168c8-16 22-28 40-34-14 10-26 22-32 34h-8zM212 142c12-10 28-16 44-16-16 4-30 10-40 18l-4-2zM288 152c8 12 14 26 14 42l-8-2c-2-14-6-26-12-36l8-4zM250 136c12 0 24 4 34 10-12-2-24-4-36-2v-8z" fill="#9aa0a6" opacity="0.85"/>
+    <path d="M204 216c8-5 18-5 26 0" stroke="#1f1c1a" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M250 216c8-5 18-5 26 0" stroke="#1f1c1a" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <ellipse cx="217" cy="230" rx="6.5" ry="7.5" fill="#22150e"/>
+    <ellipse cx="263" cy="230" rx="6.5" ry="7.5" fill="#22150e"/>
+    <circle cx="219" cy="227.5" r="2" fill="#ffffff"/>
+    <circle cx="265" cy="227.5" r="2" fill="#ffffff"/>
+    <path d="M238 236c-2 10-5 18-9 24 4 3 11 4 16 2" stroke="#5f3821" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <path d="M216 280c14 8 34 8 48-2" stroke="#4c2c18" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M186 268c2 8 6 14 12 18M294 268c-2 8-6 14-12 18" stroke="#6b4028" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
+  </g>
+  <circle cx="240" cy="240" r="228" fill="none" stroke="#ffffff" stroke-width="6" opacity="0.7"/>
+</svg>
